@@ -75,11 +75,11 @@ Node.js: The core runtime environment (version 16 or higher recommended).
 NPM: For managing project dependencies with the following one-liner:
 npm install dotenv express @google-cloud/bigquery @google/generative-ai
 
-BigQuery: Used for robust and scalable data storage, enabling efficient querying and analysis of large datasets.
+BigQuery: Used for data storage
 
-Gemini: Harnessed for text generation, providing natural language processing capabilities for content creation and automation.
+Gemini: Used for text generation
 
-Looker Studio: Employed for data visualization, facilitating the creation of dynamic and interactive dashboards to present insights effectively.
+Looker Studio: Employed for data visualization
 
 These technologies were pivotal in realizing the project's goals and delivering a seamless user experience.
 
