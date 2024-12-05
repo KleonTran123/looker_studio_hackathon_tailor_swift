@@ -27,6 +27,31 @@ Install npm for dependency management.
 
 Use this one-liner to install dependencies: npm install dotenv express  @google-cloud/bigquery @google/generative-ai
 
+# Setting up the Environment Variables
+
+The .env file is crucial for configuring the application. Here’s how to fill in each field:
+
+GOOGLE_APPLICATION_CREDENTIALS: Path to your Google Cloud service account JSON file. 
+
+PROJECT_ID: The Google Cloud project ID. 
+
+PORT: The port number the application should listen on. The default is usually 8080.
+
+PORT=8080
+
+DATASET_ID: The BigQuery dataset ID where your data resides.
+
+
+ The following two should be in the same DATASET for now:
+
+ANALYSIS_TABLE_ID: The table ID within the BigQuery dataset for checking and storing analysis data.
+
+DATA_TABLE_ID: The table ID within the BigQuery dataset that you will query to feed information to Gemini.
+
+GEMINI_API: The API key or endpoint for accessing Google Generative AI (Gemini).
+
+
+
 # Running the Application
 
 To start the application, use the following command:
