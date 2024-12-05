@@ -1,5 +1,5 @@
 # Tailor Swift
-A dynamic backend that matches users to their perfect reports. Generate personalized insights with customizable parameters like role, language, and filters. Built on Node.js, BigQuery, and Google Generative AI. Tailored data, swift delivery.
+Tailor Swift allows users to generate personalized reports by selecting their language, role, and target country through a simple interface. The backend processes these inputs, checks if a report already exists, and if not, generates a new analysis using Google BigQuery and Google Generative AI (Gemini). More parameters can be added over time, enabling dynamic SQL queries based on user inputs and normalizing roles, languages, and filters for free-form entries. The system also supports generating multiple texts by using a text_number parameter. Additionally, with the inclusion of a created_at timestamp, the backend ensures that analyses older than a week are automatically refreshed, keeping the reports up-to-date with the latest insights.
 
 # Project Structure
 
